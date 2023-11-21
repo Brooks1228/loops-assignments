@@ -6,7 +6,7 @@
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
     <ProjectGuid>{1E9CFDD7-4185-4CFB-AD2E-BE97EAD44445}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <StartupObject>loops_assignments.ex3</StartupObject>
+    <StartupObject>loops_assignments.ex5</StartupObject>
     <RootNamespace>loops_assignments</RootNamespace>
     <AssemblyName>loops assignments</AssemblyName>
     <FileAlignment>512</FileAlignment>
@@ -71,6 +71,7 @@
   <ItemGroup>
     <Compile Include="ex3.vb" />
     <Compile Include="ex4.vb" />
+    <Compile Include="ex5.vb" />
     <Compile Include="Module1.vb" />
     <Compile Include="My Project\AssemblyInfo.vb" />
     <Compile Include="My Project\Application.Designer.vb">

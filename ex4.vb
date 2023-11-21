@@ -16,5 +16,11 @@
             Double.TryParse(input, price)
             total = total + price
         Next
+        Console.WriteLine("total of prices: " & total.ToString("C2"))
+        tax = total * 0.06
+        Console.WriteLine("tax on these prices: " & tax.ToString("C2"))
+        Dim all As Double
+        all = total + tax
+        Console.WriteLine("total due is: " & all.ToString("C2"))
     End Sub
 End Module
